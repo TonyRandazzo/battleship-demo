@@ -1,6 +1,9 @@
 :root {
     --grid-size: 24px;
   }
+  body {
+    background: azure;
+  }
   .setup__buttons { 
     display: flex;
     justify-content: space-between;
@@ -16,6 +19,7 @@
     background: #ccc;
   }
   .init {
+    background: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,7 +52,7 @@
   header, footer {
     z-index: 100;
     position: fixed;
-    background: black;
+    background: navy;
     color: white;
     height: 48px;
     padding: 1rem;
@@ -93,7 +97,7 @@
   }
   
   .game__current_player {
-    color: red;
+    color: blue;
   }
   
   .game__displayname {
@@ -109,6 +113,7 @@
   }
   
   .game__message {
+    background: white;
     border: 1px solid;
     padding: 1rem;
     width: 200px;
@@ -118,6 +123,7 @@
     align-items: center;
   }
   .board {
+    background: white;
     position: relative;
     display: grid;
     grid-template-columns: repeat(11, var(--grid-size));

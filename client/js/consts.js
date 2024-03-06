@@ -41,6 +41,6 @@ const shipLength = Object.freeze({
 const COLOR = Object.freeze({
   0: 'white', // empty
   1: 'red', // hit
-  2: 'blue', // miss
-  3: 'gray', // sunk
+  2: 'gray', // miss
+  3: 'black', // sunk
 });

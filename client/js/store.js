@@ -1,7 +1,7 @@
 class Store {
   constructor() {
-    this.player1 = new Player('Bob');
-    this.player2 = new Player('Charlie');
+    this.player1 = new Player('Tony');
+    this.player2 = new Player('Bob');
     this.message = '';
     this.turn = true;
     this.gameState = gameState.INIT;
